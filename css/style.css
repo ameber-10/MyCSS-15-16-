@@ -1,0 +1,19 @@
+ul{
+  /* 白丸になる */
+  /* list-style-type: circle; */
+  /* 内側に表示 */
+  /* list-style-position: inside; */
+  /* ・が画像になる */
+  /* list-style-image: url(../img/icon.png); */
+
+  /* 上の３つを組みまわせる（一括指定プロパティ） */
+  list-style: circle  inside url(../img/icon.png);
+}
+
+ol{
+  /* a,b,cになる */
+  list-style-type: lower-alpha;
+  list-style-position: inside ;
+  /* 番号が消える */
+  /* list-style-type: none; */
+}
